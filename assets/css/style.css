@@ -146,12 +146,13 @@ header {
 
 .segunda-dv h1 {
     color: #fff;
-    margin-top: 8rem;
+    margin-top: 12.5rem;
 }
 
 .segunda-dv p {
     font-size: 22px;
     margin-top: 2rem;
+    padding: 0 2rem 0 2rem;
 }
 
 strong {
