@@ -189,6 +189,7 @@ strong {
     }
     .segunda-dv {
         width: 100%;
+        margin-bottom: 2rem;
     }
 }
 
@@ -198,7 +199,7 @@ strong {
 .title-card {
     text-align: center;
     font-size: 25px;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem 0 1rem 0;
 }
 
 main.cards {
