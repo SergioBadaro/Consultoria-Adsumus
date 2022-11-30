@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adsumus | Consultoria</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-16x16.png">
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><a href="#home">Adsumus</a></h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#section-two" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#section-three" class="nav-link">O que fazemos!</a></li>
+                    <li class="nav-item"><a href="#section-four" class="nav-link">Time</a></li>
+                    <li class="nav-item"><a href="/contato/contato.html" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#section-two" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#section-three" class="nav-link">O que fazemos!</a></li>
+                <li class="nav-item"><a href="#section-four" class="nav-link">Time</a></li>
+                <li class="nav-item"><a href="/contato/contato.html" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Primeira Seção-->
+    <div id="home" class="sec-principal">
+        <div class="first-img">
+            <img id="banner-1" src="/assets/img/Standard Logo Files/White on Black.png" alt="Logo Preto com Letras Brancas">
+        </div>
+
+        <div class="segunda-dv">
+            <h1>Bem Vindo!</h1>
+            <p>Somos uma consultoria de recrutamento e seleção da área de tecnologia, com o intuito de acelerar seu sucesso e montar um time com a melhor qualidade.</p>
+
+            <p><strong>Adsumus</strong> é uma palavra com origem no latim que significa<em> " estamos presentes ".</em> O termo vem do verbo adsum que quer dizer estar presente, estar aqui ou estamos juntos.</p>
+        </div>
+    </div>
+
+    <!--Cards da Pagina-->
+    <div class="title-card">
+        <h2 id="section-two">Nossos diferenciais</h2>
+    </div>
+    <main class="cards">
+        <section class="card">
+            <div class="icon">
+                <img src="/assets/img/missão.png" alt="Nossa missão">
+            </div>
+
+            <h3>Missão</h3>
+            <span>Nossa missão é estar presente nos clientes e sempre juntos para que os desafios tenham as melhores soluções.</span>
+        </section>
+
+        <section class="card">
+            <div class="icon">
+                <img src="/assets/img/visao.png" alt="Nossa visão">
+            </div>
+
+            <h3>Visão</h3>
+            <span>A visão é de um horizonte com enormes possiblidades e crescimentos.</span>
+        </section>
+
+        <section class="card">
+            <div class="icon">
+                <img src="/assets/img/valores.png" alt="Nossos valores">
+            </div>
+
+            <h3>Valores</h3>
+            <span>Os valores que nos trazem ao mercado de tecnologia e recrutamento, são desafios, resiliência, evolução e perspectivas sempre positivas.</span>
+        </section>
+    </main>
+    <!--Terceira Seção-->
+    <section class="terceira-sec" id="section-three">
+        <div class="text">
+
+            <h2>O que fazemos?</h2>
+
+            <p>✓ Somos especialistas no mercado de tecnologia, com cargos de todas as vertentes.</p>
+            <p>✓ Atuamos com hunting ativo, divulgações em canais de atrações de candidatos.</p>
+            <p>✓ Temos um conceito de candidato Sniper, onde procuramos o mais alinhado com os conceitos Fit e Hardskill.</p>
+            <p>✓ Não pedimos contrato de fidelidade, pois acreditamos que sua satisfação e resultados são as principais razões de fidelizar com nosso time.</p>
+            <p>✓ Como atuamos: Ao contratar nossos serviços, fazemos desde: os alinhamentos das expectativas da vaga, requisitos, exigências, etapas até entrega do candidato.</p>
+            <p>✓ O que esperamos dos parceiros é: Clareza no processo, informações e requisitos e pontualidade nos processos.</p>
+            <p>✓ Assim que contratamos o candidato, emitimos a nota conforme data e valor combinado com os parceiros. Flexibilidade é o nosso lema.</p>
+        </div>
+    </section>
+
+    <!--Card de perfil/contato-->
+
+    <section class="secao-final" id="section-four">
+
+        <div class="card-container">
+            <img class="round" src="/assets/img/sergio.jpeg" alt="user" />
+            <h3>Sérgio Badaró</h3>
+            <h6>Desenvolvedor Jr | CO-Founder</h6>
+            <br />
+            <div class="buttons">
+                <button class="primary">
+                        <a href="http://api.whatsapp.com/send?phone=5511970447821" target="_blank">Whatsapp</a> 
+                    </button>
+                <button class="primary ghost">
+                        <a href="mailto:sergiobadaro@hotmail.com? ">Email</a>
+                    </button>
+            </div>
+
+            <div class="skills">
+                <h5>Mídias Sociais</h5>
+
+                <a href="https://www.facebook.com/badarosergio" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/sergiobadaro/" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://github.com/SergioBadaro/" class="fa fa-github" target="_blank"></a>
+            </div>
+
+        </div>
+
+        <div class="card-container">
+            <img class="round" src="/assets/img/rafael.jpeg" alt="user" />
+            <h3>Rafael Solina</h3>
+            <h6>Head People | CEO Adsumus</h6>
+            <br />
+            <div class="buttons">
+                <button class="primary">
+                        <a href="http://api.whatsapp.com/send?phone=5511914099267" target="_blank">Whatsapp</a> 
+                    </button>
+                <button class="primary ghost">
+                        <a href="mailto:rafael.solina@adsumus.net? ">Email</a>
+                    </button>
+            </div>
+
+            <div class="skills">
+                <h5>Mídias Sociais</h5>
+
+                <a href="https://www.facebook.com/rafael.solina.1" class="fa fa-facebook" target="_blank"></a>
+                <a href="https://www.linkedin.com/in/rafael-s-50ab20137/" class="fa fa-linkedin" target="_blank"></a>
+                <a href="https://www.instagram.com/solina_rafa/" class="fa fa-instagram" target="_blank"></a>
+            </div>
+    </section>
+
+    <!--Rodapé-->
+    <footer class="rodape">
+        <div>
+            <p>&copy; Todos os direitos Reservados - 2022</p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

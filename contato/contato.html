@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="css/contato.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/favicon-32x32.png">
+</head>
+
+<body>
+
+    <header>
+        <div class="nav-list">
+            <ul>
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link">
+                        <h2>Home</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Parte para Contato-->
+
+    <section class="secao-final" id="section-four">
+        <div class="formulario">
+            <h2>Contato</h2>
+            <form action="https://api.staticforms.xyz/submit" method="post">
+                <label>Nome:</label>
+                <input type="text" name="name" placeholder="Digite seu nome" required>
+
+                <label>Sobrenome:</label>
+                <input type="text" name="name" placeholder="Digite seu sobrenome" required>
+
+                <label>Email:</label>
+                <input type="email" name="email" placeholder="Digite seu email" required>
+
+                <label>Mensagem:</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+
+                <input type="hidden" name="accessKey" value="24dd468c-c0e4-4014-9981-564bb4cc4550">
+                <input type="hidden" name="redirectTo" value="https://projeto-adsumus.netlify.app/obrigado.html">
+            </form>
+        </div>
+    </section>
+
+    <!--Rodapé-->
+    <footer class="rodape">
+        <div>
+            <p>&copy; Todos os direitos Reservados - 2022</p>
+        </div>
+    </footer>
+</body>
+
+</html>

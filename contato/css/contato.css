@@ -1,0 +1,223 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 12px;
+    background-color: #5353b9;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #3f3fc4;
+}
+
+body {
+    background: #F6F9FF;
+    height: 100vh;
+    width: 100%;
+    color: #434343;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, #000, rgb(50, 66, 234));
+    height: 100px;
+}
+
+@media (max-width:500px) {
+    header {
+        position: relative;
+    }
+}
+
+.nav-bar {
+    display: flex;
+    padding: 1.5rem 2rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item {
+    padding: 5px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.mobile-menu-icon {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .nav-item {
+        /*display: none;*/
+        margin-bottom: 10px;
+    }
+    .mobile-menu-icon {
+        display: block;
+    }
+    .mobile-menu-icon button {
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu .nav-item {
+        display: block;
+        padding-top: 1.2rem;
+    }
+    .open {
+        display: block;
+    }
+}
+
+
+/*Parte do formulário de contato*/
+
+.secao-final {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(236, 236, 237);
+}
+
+@media (max-width:720px) {
+    .secao-final {
+        padding: 0 2rem 0 2rem;
+    }
+}
+
+.formulario {
+    min-height: 70vh;
+    background-image: linear-gradient(to right, #002, rgb(80, 90, 300));
+    flex-direction: column;
+    padding: 10px 27px;
+    width: 450px;
+    box-shadow: 20px 20px 50px -30px rgb(0, 14, 1);
+    border-radius: 20px;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+}
+
+.formulario h2 {
+    color: #f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form label {
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+
+form input {
+    padding: 15px;
+    outline: none;
+    border: 0;
+    border-radius: 18px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+form input:focus {
+    border-radius: 12px;
+}
+
+form textarea {
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 18px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+
+form textarea:focus {
+    border-radius: 12px;
+}
+
+form button {
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+
+form button:hover {
+    background-color: #f5f5f5;
+    color: #101026;
+    border-radius: 16px;
+}
+
+
+/*Definições do Rodapé*/
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    background-color: #000;
+    color: #fff;
+}
+
+.fa {
+    color: #fff;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.rodape p {
+    font-size: 16px;
+    margin-left: 20px;
+}
